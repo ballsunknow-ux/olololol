@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/XXXX/XXXX"  # replace with your webhook
+DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1409493255531397130/mWva5gfI8nDGqa1Xh5x8fTY6Y8QyWrMJ14tGHcXekblLBtTGcVlG7lfOuWYbhbClwnUL"  # replace with your webhook
 
 @app.route("/paypal-ipn", methods=["POST"])
 def paypal_ipn():
